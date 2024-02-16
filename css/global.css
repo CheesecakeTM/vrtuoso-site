@@ -1,0 +1,22 @@
+body {
+    color: var(--color-white);
+    font: var(--font-outfit);
+    font-size: var(--font-size-lg);
+}
+
+:root {
+    /* fonts */
+    --font-outfit: Outfit;
+
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-grey: #424242;
+    --color-black: #030D16;
+    --color-pink: #F52084;
+    --color-purple: #22144D;
+    --color-blue: #00EEFF;
+}
