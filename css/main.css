@@ -184,26 +184,22 @@ body {
     justify-items: center;
     width: 100%;
     height: 110%;
-    right: 10%;
-    top: -150%;
-    opacity: 0;
-    transform: scale(1.25);
+    right: -150%;
+    opacity: 1;
     padding: 20px 30px;
     background: var(--color-black);
     box-shadow: 2px 2px 5px 5px var(--color-black);
     border-radius: 20px;
-    z-index: 9999;
-    transition: top 0ms ease-in-out 200ms,
-                opacity 200ms ease-in-out 0ms,
-                tranform 20ms ease-in-out 0ms;
+    z-index: 999;
+    transition: right 0ms ease-in-out 200ms,
+                opacity 100ms ease-in-out 0ms;
 }
+
 .popup-container.active {
-    top: 0%;
+    right: 10%;
     opacity: 1;
-    transform: scale(1);
-    transition: top 0ms ease-in-out 0ms,
-            opacity 200ms ease-in-out 0ms,
-            tranform 20ms ease-in-out 0ms;
+    transition: right 0ms ease-in-out 0ms,
+                opacity 100ms ease-in-out 0ms;
 }
 
 .popup-close-btn {
