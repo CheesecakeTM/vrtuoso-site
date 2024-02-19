@@ -1,0 +1,139 @@
+.logo-container,
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+}
+
+.logo-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 150px;
+    justify-self: center;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+header {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 17px 37px 16px;
+    box-sizing: border-box;
+}
+
+.nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 49px;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+}
+
+.home-btn,
+.tournaments-btn,
+.leaderboard-btn {
+    flex: 1;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: inherit;
+    font-weight: 600;
+    color: var(--color-gray);
+    text-decoration: var(--color-gray);
+    background: transparent !important;
+    border: 0;
+    cursor: pointer;
+}
+
+.home-btn a,
+.tournaments-btn a,
+.leaderboard-btn a {
+    color: inherit !important;
+    text-decoration: none;
+}
+
+.home-btn:hover,
+.tournaments-btn:hover,
+.leaderboard-btn:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    height: 150vh;
+    background: var(--color-black);
+    box-sizing: border-box;
+}
+
+
+.footer-wrapper {
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(10, 10, 10, 0), #0a0a0a);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    right: 10px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-family: var(--font-outfit);
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    width: 336px;
+    height: 49px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.privacy-text,
+.terms-text {
+    position: relative;
+    top: -10px;
+    letter-spacing: -0.04em;
+    line-height: 139.5%;
+    flex-shrink: 2;
+}
+
+.privacy-a,
+.terms-a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 49px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.facebook,
+.instagram,
+.x {
+    height: 35px;
+    width: 35px;
+    position: relative;
+}

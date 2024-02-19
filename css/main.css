@@ -54,6 +54,13 @@ header {
     cursor: pointer;
 }
 
+.home-btn a,
+.tournaments-btn a,
+.leaderboard-btn a {
+    color: inherit !important;
+    text-decoration: none;
+}
+
 .home-btn:hover,
 .tournaments-btn:hover,
 .leaderboard-btn:hover {
@@ -240,6 +247,9 @@ body {
     font-weight: 600;
     margin: 10px 0px 20px;
     font-size: 45px;
+    background: linear-gradient(to bottom, #761e5b, #271253);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .popup-text {
@@ -312,6 +322,7 @@ body {
 .popup-subscribe-text {
     height: 25px;
     position: relative;
+    left: -20px;
     font-size: 20px;
     font-weight: 600;
     font-family: var(--font-outfit);
