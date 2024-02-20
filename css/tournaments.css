@@ -78,6 +78,7 @@ body {
     height: 150vh;
     background: var(--color-black);
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 
@@ -219,6 +220,183 @@ body {
     color: var(--color-white);
 }
 
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    bottom: 5%;
+
+    position: relative;
+    width: 1300px;
+    height: 50vh;
+    padding: 0px 0px 0px 20px;
+}
+
+.bot-left-title {
+    position: relative;
+    bottom: -80%;
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    font-size: 60px;
+    box-sizing: border-box;
+}
+
+bot-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bl-box-shadow {
+    position: relative;
+    bottom: -50%;
+    left: 15%;
+    width: 370px;
+    height: 295px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 32px;
+}
+
+.bl-box {
+    width: 413px;
+    height: 355px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 32px;
+    z-index: 1;
+}
+
+.bl-box-bg {
+    position: relative;
+    width: 360px;
+    height: 190px;
+    left: 7%;
+    top: 7%;
+    background: url("../images/bs-background.png");
+    background-size: cover;
+    border-radius: 26px;
+    z-index: 2;
+    flex: none;
+}
+
+.bl-box-game-logo {
+    position: relative;
+    z-index: 3;
+    width: 76px;
+    height: 76px;
+    right: 27%;
+    bottom: 20%;
+
+    border: 3px solid var(--color-white);
+    border-radius: 20px;
+    background: url("../images/bs-logo.png");
+    background-size: cover;
+}
+
+.bl-title {
+    z-index: 3;
+    position: relative;
+    left: 35%;
+
+    align-self: center;
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.bl-subtitle {
+    z-index: 3;
+    position: relative;
+    bottom: 25%;
+    left: 35%;
+
+    align-self: center;
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.bl-box-button {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+    align-self: center;
+    top: -65%;
+    left: 100%;
+
+    font-family: var(--font-outfit);
+    color: var(--color-black);
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+
+    background: url("../images/next.png");
+    background-size: cover;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.bl-box-button:hover {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    top: -67%;
+}
+
+.bot-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: flex-end;
+    top: -70%;
+    left: -5%;
+    width: 500px;
+
+    /* SFONDO CARD PER PARTNER !!!!!
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 32px;*/
+}
+
+.bot-right-title {
+    font-family: var(--font-outfit);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.bl-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding-bottom: 30px;
+}
+
+.bl-logo-container * {
+    width: 80px;
+    height: 80px;
+}
 
 .footer-wrapper {
     width: 100vw;
