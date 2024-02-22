@@ -116,6 +116,7 @@ body {
     flex-direction: column;
     top: -55rem;
     left: 5rem;
+    padding: 3rem;
 }
 
 .title {
