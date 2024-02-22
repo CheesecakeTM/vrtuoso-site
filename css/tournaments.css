@@ -202,6 +202,11 @@ body {
     left: 22%;
 }
 
+.first-details-btn-text a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
 .first-details-btn:hover {
     border: 2px solid var(--color-gray);
     box-sizing: border-box;

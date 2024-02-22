@@ -1,0 +1,220 @@
+.logo-container,
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+}
+
+.logo-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 150px;
+    justify-self: center;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+header {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 17px 37px 16px;
+    box-sizing: border-box;
+}
+
+.nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 49px;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+}
+
+.home-btn,
+.tournaments-btn,
+.leaderboard-btn {
+    flex: 1;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: inherit;
+    font-weight: 600;
+    color: var(--color-gray);
+    text-decoration: var(--color-gray);
+    background: transparent !important;
+    border: 0;
+    cursor: pointer;
+}
+
+.home-btn a,
+.tournaments-btn a,
+.leaderboard-btn a {
+    color: inherit !important;
+    text-decoration: none;
+}
+
+.home-btn:hover,
+.tournaments-btn:hover,
+.leaderboard-btn:hover {
+    text-decoration: underline;
+}
+
+
+
+
+body {
+    width: 100vw;
+    height: 200vh;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    margin: 0px 0px;
+    overflow-x: hidden;
+    background: var(--color-black);
+}
+
+.frame-main {
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    bottom: 0;
+    left: 50vw;
+    overflow: hidden;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url("../images/background-tr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.image-shadow {
+    position: relative;
+    width: 100vw;
+    height: 5rem;
+    background: linear-gradient(180deg, rgba(10, 10, 10, 0), var(--color-black));
+    top: -5rem;
+}
+
+.content-wrapper {
+    width: 40rem;
+    height: 20rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -55rem;
+    left: 5rem;
+}
+
+.title {
+    font-size: 80px;
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    margin: 0%;
+}
+
+.subtitle {
+    font-size: var(--font-size-lg);
+    font-family: var(--font-outfit);
+    font-weight: 600;
+}
+
+.subscribe {
+    cursor: pointer;
+    border: 2px solid #696969;
+    height: 49px;
+    width: 220px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    white-space: nowrap;
+
+    font-size: var(--font-size-lg);
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    color: #a3a3a3;
+}
+
+.subscribe:hover {
+    background: #b9b9b9;
+}
+
+
+
+
+
+.footer-wrapper {
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(10, 10, 10, 0), var(--color-black));
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-family: var(--font-outfit);
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    width: 336px;
+    height: 49px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.privacy-text,
+.terms-text {
+    position: relative;
+    top: -10px;
+    letter-spacing: -0.04em;
+    line-height: 139.5%;
+    flex-shrink: 2;
+}
+
+.privacy-a,
+.terms-a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 49px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.facebook,
+.instagram,
+.x {
+    height: 35px;
+    width: 35px;
+    position: relative;
+}
