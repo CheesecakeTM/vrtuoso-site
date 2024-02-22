@@ -222,37 +222,39 @@ body {
 
 .bottom-section {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    bottom: 5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    bottom: -10%;
 
     position: relative;
     width: 1300px;
-    height: 50vh;
-    padding: 0px 0px 0px 20px;
+    height: 400px;
+    padding: 0px 0px 0px 10px;
+}
+
+bot-left {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
 }
 
 .bot-left-title {
     position: relative;
-    bottom: -80%;
+
     font-family: var(--font-outfit);
     font-weight: 600;
     font-size: 60px;
     box-sizing: border-box;
-}
 
-bot-left {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .bl-box-shadow {
     position: relative;
-    bottom: -50%;
+    top: 0px;
     left: 15%;
     width: 370px;
     height: 295px;
@@ -266,6 +268,9 @@ bot-left {
 }
 
 .bl-box {
+    position: relative;
+    top: -280px;
+
     width: 413px;
     height: 355px;
     background: rgba(255, 255, 255, 0.1);

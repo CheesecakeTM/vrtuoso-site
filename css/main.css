@@ -190,11 +190,11 @@ body {
     align-items: center;
     justify-items: center;
     width: 100%;
-    height: 110%;
+    height: 120%;
     right: -150%;
     opacity: 1;
     padding: 20px 30px;
-    background: var(--color-black);
+    background: #6c6a6a;
     box-shadow: 2px 2px 5px 5px var(--color-black);
     border-radius: 20px;
     z-index: 999;

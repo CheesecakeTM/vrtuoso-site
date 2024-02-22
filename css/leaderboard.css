@@ -77,6 +77,24 @@ body {
     background: var(--color-black);
 }
 
+.frame-main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+.coming-soon {
+    font-size: 60px;
+    font-family: var(--font-outfit);
+    position: relative;
+    top: 150%;
+    left: 160%;
+}
+
 
 
 
