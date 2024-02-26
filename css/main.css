@@ -159,6 +159,10 @@ body {
     white-space: nowrap;
 }
 
+.view-tournaments a {
+    text-decoration: none;
+}
+
 .view-tournaments:hover,
 .subscribe:hover {
     border: 2px solid var(--color-gray);
