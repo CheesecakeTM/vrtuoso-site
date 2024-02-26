@@ -71,6 +71,7 @@ header {
 
 
 body {
+    margin: 0;
     width: 100vw;
     height: 200vh;
     position: relative;
@@ -83,6 +84,10 @@ body {
     margin: 0px 0px;
     overflow-x: hidden;
     background: var(--color-black);
+}
+
+.top {
+    z-index: 5;
 }
 
 .frame-main {
@@ -153,6 +158,75 @@ body {
     background: #b9b9b9;
 }
 
+.foto-evento {
+    cursor: pointer;
+    border: 2px solid var(--color-white);
+    padding: 0 41.31814193725586px;
+    background-color: transparent;
+    height: 49px;
+    width: 220px;
+    border-radius: 25px;
+    background: linear-gradient(97.16deg, #271253, #761e5b 54.4%);
+    box-sizing: border-box;
+    flex-direction: row;
+    align-self: flex-start;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 2%;
+
+    font-size: var(--font-size-lg);
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.foto-evento:hover {
+    text-align: start;
+}
+
+
+
+.image-grid {
+    opacity: 0;
+    overflow:visible;
+    background: rgba(0, 0, 0, .8);
+    width: 67%;
+    height: 100%;
+    z-index: 6;
+    position: relative;
+    top: -72%;
+    left: 100%;
+    border-radius: 21px;
+    outline: 2px solid var(--color-white);
+
+    transition: left 0ms ease-in-out 200ms,
+                opacity 50ms ease-in-out 0ms;
+}
+
+.image-grid.active {
+    left: 30%;
+    opacity: 1;
+    transition: left 200ms ease-in-out 0ms,
+                opacity 50ms ease-in-out 0ms;
+}
+
+.image-grid section {
+    margin: -1%;
+    padding: 20px;
+}
+
+.image-grid section img {
+    background: var(--color-black);
+    background-size: cover;
+    object-fit: cover;
+    outline: 2px solid var(--color-white);
+    border-radius: 20px;
+    float: left;
+    height: 15vw;
+    margin: 1%;
+    margin-bottom: 2%;
+    width: 15vw;
+}
 
 
 
