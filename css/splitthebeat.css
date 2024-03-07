@@ -229,9 +229,8 @@ body {
 }
 
 
-.lead-wrapper {
-    background: var(--color-white); * occhio allo sfondo-------------------*
 
+.lead-wrapper {
     position: relative;
     box-sizing: border-box;
     width: 100vw;
@@ -247,13 +246,17 @@ body {
     width: 80vw;
 }
 
-.second {
+.second,
+.first,
+.third {
     box-sizing: border-box;
     position: relative;
     width: 10rem;
 }
 
-.second img {
+.second img,
+.first img,
+.third img {
     object-fit: cover;
     width: 10rem;
 }
